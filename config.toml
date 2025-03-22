@@ -1,73 +1,19 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
-theme = 'PaperMod'
-
-# Needed for Papermod
-defaultContentLanguage = "en"
-enableRobotsTXT = true
-buildDrafts = false
-buildFuture = false
-pygmentsUseClasses = false
-paginate = 10
+theme = 'papermod'
 
 [params]
-env = "production"                           # to enable google analytics, opengraph, twitter-cards and schema.
-title = "My New Hugo Site"
-description = "ExampleSite description"
-keywords = ["Blog", "Portfolio", "PaperMod"]
-author = "Me"
-# exampleDate = "Jan 1, 2020"
-# showFullTextInList = false
-# showShareButtons = false
-# showReadingTime = false
-# showPostNavLinks = false
-# showBreadCrumbs = false
-# showCodeCopyButtons = false
-# disableSpecial1stPost = false
-# disableScrollToTop = false
-# comments = false
-images = ["papermod-cover.png"]
+# Other params go here...
 
-[params.homeInfoParams]
-Title = "Hi there \U0001F44B"
-Content = "Welcome to my new Hugo site!"
-
-[params.socialIcons]
-[[params.socialIcons]]
-name = "twitter"
-url = "https://twitter.com/"
 [[params.socialIcons]]
 name = "github"
-url = "https://github.com/"
+url = "https://github.com"
 
-[params.analytics.google]
-SiteVerificationTag = "XYZabc"
+[[params.socialIcons]]
+name = "twitter"
+url = "https://twitter.com"
 
-[params.assets]
-# disableHLJS = true # to disable highlight.js
-# disableFingerprinting = true
-favicon = "papermod-cover.png"
-favicon16x16 = "papermod-cover.png"
-favicon32x32 = "papermod-cover.png"
-apple_touch_icon = "papermod-cover.png"
-safari_pinned_tab = "papermod-cover.png"
-
-[menu]
-[[menu.main]]
-identifier = "about"
-name = "About"
-url = "/about/"
-weight = 10
-
-[[menu.main]]
-identifier = "categories"
-name = "Categories"
-url = "/categories/"
-weight = 20
-
-[[menu.main]]
-identifier = "tags"
-name = "Tags"
-url = "/tags/"
-weight = 30
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://linkedin.com"
