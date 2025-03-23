@@ -1,6 +1,6 @@
 baseURL = 'https://sharadv.netlify.app/'
 languageCode = 'en-us'
-title = 'sharad venkat'
+title = 'Sharad Venkat'
 theme = 'PaperMod'
 
 [params]
