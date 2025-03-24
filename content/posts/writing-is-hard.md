@@ -2,9 +2,6 @@
 date = '2025-03-22T13:00:22-05:00'
 draft = false
 title = 'Writing is Hard'
-author = ["Sharad Venkat"]
-description = "Sample article showcasing basic code syntax and formatting for HTML elements."
-summary = "Sample article showcasing basic code syntax and formatting for HTML elements."
 tags = ["writing"]
 categories = ["themes", "syntax"]
 series = ["process"]

@@ -8,3 +8,19 @@ logoHomeLink = "/"
 [params]
 ReadMore = "Read More"
 readingTime = true
+
+[menu]
+[[menu.main]]
+name = "archive"
+url = "archives"
+weight = 5
+
+[[menu.main]]
+name = "about"
+url = "about/"
+weight = 10
+
+[[menu.main]]
+name = "tags"
+url = "tags/"
+weight = 10
