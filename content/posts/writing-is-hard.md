@@ -2,6 +2,18 @@
 date = '2025-03-22T13:00:22-05:00'
 draft = false
 title = 'Writing is Hard'
+author = ["Sharad Venkat"]
+date = "2019-03-10"
+description = "Sample article showcasing basic code syntax and formatting for HTML elements."
+summary = "Sample article showcasing basic code syntax and formatting for HTML elements."
+tags = ["writing"]
+categories = ["themes", "syntax"]
+series = ["process"]
+ShowToc = true
+TocOpen = true
+social =
+  fediverse_creator: "@adityatelange@mastodon.social"
+---
 +++
 
 Over the past month or so I’ve tried to start a regular writing habit.  And I’ve discovered that its really hard.  Not because writing is hard (even though it is), and not because I don’t want to do it (I do).  I’ve struggled because there are actually infinite reasons to not write.  What I mean by that is that every single thing that you could possibly do in any given moment is a reason not to write.
