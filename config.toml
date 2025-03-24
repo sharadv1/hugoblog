@@ -1,7 +1,7 @@
 baseURL = 'https://sharadv.netlify.app/'
 languageCode = 'en-us'
 title = 'Sharad Venkat'
-theme = 'PaperMod'
+theme = 'hugo-bearblog'
 
 [params]
 # Other params go here...
