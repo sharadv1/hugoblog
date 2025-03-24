@@ -2,8 +2,9 @@ baseURL = 'https://sharadv.netlify.app/'
 languageCode = 'en-us'
 title = 'Sharad Venkat'
 theme = 'terminal'
-readingTime = true                       # default
 [languages.en.params.logo]
 logoText = "Sharad Venkat"
 logoHomeLink = "/"
+[params]
 ReadMore = "Read More"
+readingTime = true
