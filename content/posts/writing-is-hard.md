@@ -10,8 +10,6 @@ categories = ["themes", "syntax"]
 series = ["process"]
 ShowToc = true
 TocOpen = true
-social =
-  fediverse_creator: "@adityatelange@mastodon.social"
 +++
 
 Over the past month or so I’ve tried to start a regular writing habit.  And I’ve discovered that its really hard.  Not because writing is hard (even though it is), and not because I don’t want to do it (I do).  I’ve struggled because there are actually infinite reasons to not write.  What I mean by that is that every single thing that you could possibly do in any given moment is a reason not to write.
