@@ -1,19 +1,8 @@
 baseURL = 'https://sharadv.netlify.app/'
 languageCode = 'en-us'
 title = 'Sharad Venkat'
-theme = 'hugo-bearblog'
-
-[params]
-# Other params go here...
-
-[[params.socialIcons]]
-name = "github"
-url = "https://github.com"
-
-[[params.socialIcons]]
-name = "twitter"
-url = "https://twitter.com"
-
-[[params.socialIcons]]
-name = "linkedin"
-url = "https://linkedin.com"
+theme = 'terminal'
+readingTime = true                       # default
+[languages.en.params.logo]
+logoText = "Sharad Venkat"
+logoHomeLink = "/"
