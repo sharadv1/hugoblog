@@ -8,7 +8,7 @@ logoHomeLink = "/"
 [params]
 ReadMore = "Read More"
 readingTime = true
-
+centerTheme = true
 [menu]
 [[menu.main]]
 name = "archive"
@@ -17,10 +17,10 @@ weight = 5
 
 [[menu.main]]
 name = "about"
-url = "about/"
+url = "about"
 weight = 10
 
 [[menu.main]]
 name = "tags"
-url = "tags/"
+url = "tags"
 weight = 10
