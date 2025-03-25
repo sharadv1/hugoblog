@@ -1,14 +1,23 @@
 baseURL = 'https://sharadv.netlify.app/'
 languageCode = 'en-us'
 title = 'Sharad Venkat'
-theme = 'terminal'
+theme = 're-terminal'
 [languages.en.params.logo]
 logoText = "Sharad Venkat"
 logoHomeLink = "/"
 [params]
-ReadMore = "Read More"
+ReadMore = "Keep reading"
 readingTime = true
 centerTheme = true
+themeColor = "paper"
+
+[params.twitter]
+# set Twitter handles for Twitter cards
+# see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
+# do not include @
+creator = "sharad"
+site = "x.com/sharadv"
+
 [menu]
 [[menu.main]]
 name = "archive"
