@@ -1,10 +1,10 @@
 baseURL = "https://sharadv.xyz/"
 relativeURLs = true
 languageCode = 'en-us'
-title = 'Sharad Venkat'
-theme = 're-terminal'
+title = 'CAKE FOR BREAKFAST'
+theme = 'terminal'
 [languages.en.params.logo]
-logoText = "Sharad Venkat"
+logoText = "CAKE FOR BREAKFAST"
 logoHomeLink = "/"
 [params]
 ReadMore = "Keep reading"
