@@ -1,4 +1,4 @@
-baseURL = 'https://sharadv.xyz/'
+baseURL = "https://sharadv.xyz/"
 relativeURLs = false
 canonifyURLs = true
 languageCode = 'en-us'
@@ -11,7 +11,7 @@ logoHomeLink = "/"
 ReadMore = "Keep reading"
 readingTime = true
 centerTheme = true
-themeColor = "orange"
+themeColor = "blue"
 
 [params.twitter]
 # set Twitter handles for Twitter cards
