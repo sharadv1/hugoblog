@@ -1,6 +1,5 @@
 baseURL = "https://sharadv.xyz/"
-relativeURLs = false
-canonifyURLs = true
+relativeURLs = true
 languageCode = 'en-us'
 title = 'Sharad Venkat'
 theme = 're-terminal'
