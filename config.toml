@@ -1,4 +1,4 @@
-baseURL = 'https://sharadv.netlify.app/'
+baseURL = 'https://sharadv.xyz/'
 languageCode = 'en-us'
 title = 'Sharad Venkat'
 theme = 're-terminal'
