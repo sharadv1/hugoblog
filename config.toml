@@ -1,6 +1,6 @@
-baseURL = 'https://sharadv.netlify.app/'
-relativeURLs = true
-canonifyURLs = false
+baseURL = "https://sharadv.xyz/"
+relativeURLs = false
+canonifyURLs = true
 languageCode = 'en-us'
 title = 'Sharad Venkat'
 theme = 're-terminal'
