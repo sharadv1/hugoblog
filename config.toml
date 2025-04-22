@@ -9,7 +9,7 @@ logoHomeLink = "/"
 ReadMore = "Keep reading"
 readingTime = true
 centerTheme = true
-themeColor = "paper"
+themeColor = "blue"
 
 [params.twitter]
 # set Twitter handles for Twitter cards
