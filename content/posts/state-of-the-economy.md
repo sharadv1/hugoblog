@@ -1,5 +1,5 @@
 +++
-date = '2025-03-22T13:00:22-05:00'
+date = '2025-04-21T13:00:22-05:00'
 draft = false
 title = 'State of the Economy with Whitney Baker'
 tags = ["macro"]
@@ -28,13 +28,13 @@ Baker covered  a lot of ground in the discussion, from the end of the gold stand
 	The U.S. economy is still running hot (strong wage and job growth), inflation is set to re-accelerate as global demand returns, and foreign capital is saturated. Passive investing is risky at these valuations. Future gains will come from exploiting dislocations globally—it’s a market for selective, alpha-driven macro strategies.
 
 
-Toward the end they touched on AI’s potential to help foster real growth as an antidote to the current economic headwinds.  Baker basically said AI is great and has a lot of promise, but the key questions really are: 
+Toward the end they touched on AI’s potential to help foster real growth as an antidote to the current economic headwinds.  Baker basically said AI is great and has a lot of promise, but the key questions really are:
 
 1. How long will it take for AI’s efficiency gains to be transmitted imto real productivity gains
 2. Will productivity gains be distributed broadly or will they be concentrated within the oligopolies
 
 ---
-This was honestly a really great discussion with someone who understands macro at a very deep level.  I would highly recommend listening to it in its entirety.  
+This was honestly a really great discussion with someone who understands macro at a very deep level.  I would highly recommend listening to it in its entirety.
 
 [end]
 
