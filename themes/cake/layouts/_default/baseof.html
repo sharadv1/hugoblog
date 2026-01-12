@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en" }}">
+<head>
+  {{- partial "head.html" . -}}
+</head>
+<body>
+  {{- partial "toc-drawer.html" . -}}
+  <div class="site-wrapper">
+    {{- partial "header.html" . -}}
+    <main class="main-content">
+      {{- block "main" . }}{{- end }}
+    </main>
+    {{- partial "footer.html" . -}}
+  </div>
+  <script src="/js/main.js"></script>
+</body>
+</html>

@@ -1,41 +1,25 @@
 baseURL = "https://sharadv.xyz/"
-relativeURLs = true
-languageCode = 'en-us'
-title = 'CAKE FOR BREAKFAST'
-theme = 'terminal'
-[languages.en.params.logo]
-logoText = "CAKE FOR BREAKFAST"
-logoHomeLink = "/"
+languageCode = "en-us"
+title = "CAKE FOR BREAKFAST"
+theme = "cake"
+
+# Enable useful features
+enableRobotsTXT = true
+enableGitInfo = true
+
 [params]
-ReadMore = "Keep reading"
-readingTime = true
-centerTheme = true
-themeColor = "blue"
+description = "A blog by Sharad Venkat"
+twitter = "sharadv"
 
-[params.twitter]
-# set Twitter handles for Twitter cards
-# see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
-# do not include @
-creator = "sharad"
-site = "x.com/sharadv"
+# Taxonomies
+[taxonomies]
+tag = "tags"
 
-[menu]
-[[menu.main]]
-name = "archives"
-url = "/archives/"
-weight = 5
+# Output formats
+[outputs]
+home = ["HTML", "RSS"]
 
-[[menu.main]]
-name = "lists"
-url = "/lists/"
-weight = 5
-
-[[menu.main]]
-name = "about"
-url = "/about/"
-weight = 10
-
-[[menu.main]]
-name = "tags"
-url = "/tags/"
-weight = 10
+# RSS settings
+[outputFormats.RSS]
+mediatype = "application/rss+xml"
+baseName = "index"

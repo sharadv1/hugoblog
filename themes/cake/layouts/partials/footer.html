@@ -1,0 +1,11 @@
+<footer class="site-footer">
+  <div class="footer-content">
+    <span>&copy; {{ now.Year }} {{ .Site.Title }}</span>
+    <span class="footer-sep">&middot;</span>
+    <a href="/index.xml" title="RSS Feed">RSS</a>
+    {{ with .Site.Params.twitter }}
+    <span class="footer-sep">&middot;</span>
+    <a href="https://twitter.com/{{ . }}" target="_blank" rel="noopener" title="Twitter">Twitter</a>
+    {{ end }}
+  </div>
+</footer>

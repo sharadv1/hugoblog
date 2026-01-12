@@ -1,0 +1,20 @@
+{{ define "main" }}
+<div class="list-page">
+  <h1 class="list-title">{{ .Title }}</h1>
+  {{ if .Content }}
+  <div class="list-content">
+    {{ .Content }}
+  </div>
+  {{ end }}
+  {{ if .Pages }}
+  <ul class="list-items">
+    {{ range .Pages }}
+    <li>
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+      <span class="list-date">{{ .Date.Format "Jan 2, 2006" }}</span>
+    </li>
+    {{ end }}
+  </ul>
+  {{ end }}
+</div>
+{{ end }}

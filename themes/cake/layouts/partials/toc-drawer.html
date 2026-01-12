@@ -1,0 +1,42 @@
+<div class="toc-overlay" onclick="toggleTOC()"></div>
+<nav class="toc-drawer" aria-label="Table of contents">
+  <div class="toc-header">
+    <span class="toc-title">Contents</span>
+    <button class="toc-close" onclick="toggleTOC()" aria-label="Close">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      </svg>
+    </button>
+  </div>
+  <ul class="toc-list">
+    {{ range (where .Site.RegularPages "Section" "posts").ByDate.Reverse }}
+    <li class="toc-item" data-tags="{{ delimit .Params.tags "," }}">
+      <a href="#post-{{ .File.BaseFileName }}" onclick="expandPost('{{ .File.BaseFileName }}'); toggleTOC(); return false;">
+        <span class="toc-item-title">{{ .Title }}</span>
+        <span class="toc-item-date">{{ .Date.Format "Jan 2, 2006" }}</span>
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+
+  <!-- Tags section -->
+  {{ $tags := .Site.Taxonomies.tags }}
+  {{ if $tags }}
+  <div class="toc-tags">
+    <button class="toc-tags-toggle" onclick="toggleTagsSection()">
+      <span class="toc-tags-title">Tags</span>
+      <svg class="toc-tags-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <polyline points="6 9 12 15 18 9"></polyline>
+      </svg>
+    </button>
+    <div class="toc-tags-list">
+      {{ range $tags.ByCount }}
+      <button class="tag-filter" onclick="filterByTag('{{ .Name }}'); event.stopPropagation();">
+        #{{ .Name }}
+      </button>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+</nav>

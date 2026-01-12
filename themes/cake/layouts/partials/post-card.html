@@ -1,0 +1,52 @@
+{{ $slug := .File.BaseFileName }}
+
+<article class="post-card" id="post-{{ $slug }}" data-tags="{{ delimit .Params.tags "," }}">
+  <!-- Post meta: date and read time -->
+  <div class="post-meta">
+    <span class="post-date">{{ .Date.Format "2006-01-02" }}</span>
+    <span class="post-meta-sep">&middot;</span>
+    <span class="post-readtime">{{ .ReadingTime }} min read</span>
+  </div>
+
+  <!-- Post title - clickable to expand/collapse -->
+  <h2 class="post-title" onclick="expandPost('{{ $slug }}')">{{ .Title }}</h2>
+
+  <!-- Tags in header area - clickable to filter -->
+  {{ if .Params.tags }}
+  <div class="post-tags-header">
+    {{ range .Params.tags }}
+    <button class="tag-link" onclick="event.stopPropagation(); filterByTag('{{ . }}')">#{{ . }}</button>
+    {{ end }}
+  </div>
+  {{ end }}
+
+  <!-- Post snippet (first paragraph with fade) -->
+  <div class="post-snippet">
+    <div class="post-snippet-fade">
+      {{ .Summary }}
+    </div>
+  </div>
+
+  <!-- Read more link -->
+  <button class="read-more" onclick="expandPost('{{ $slug }}')">
+    <span class="read-more-text">Read </span>
+    <svg class="read-more-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <polyline points="6 9 12 15 18 9"></polyline>
+    </svg>
+  </button>
+
+  <!-- Expandable content (rest of the post) -->
+  <div class="post-content">
+    <div class="post-body">
+      {{ .Content }}
+    </div>
+
+    <!-- Collapse button at bottom -->
+    <button class="collapse-btn" onclick="expandPost('{{ $slug }}')">
+      <span>Collapse</span>
+      <svg class="collapse-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <polyline points="18 15 12 9 6 15"></polyline>
+      </svg>
+    </button>
+  </div>
+</article>
